@@ -1,0 +1,22 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "vm",
+      "email": "vm@example.com",
+      "password": "222222"
+    }
+  ],
+  "projects": [
+    {
+      "id": "230b",
+      "name": ".",
+      "description": ".",
+      "start_date": "2025-03-27",
+      "end_date": "2026-03-27",
+      "creator_id": "1",
+      "collaborators": []
+    }
+  ],
+  "tasks": []
+}
