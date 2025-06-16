@@ -39,7 +39,7 @@ export default function Dashboard() {
 
     try {
       await api.post("/projects", newProject);
-      fetchProjects(); // Atualiza lista
+      fetchProjects();
       setName("");
       setDescription("");
       setStartDate("");
