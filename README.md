@@ -1,6 +1,6 @@
 Desafio Técnico - Tasksphere
 
-usuário de teste:
+usuário de teste:\n
 email: vm@example.com
 senha: 222222
 
