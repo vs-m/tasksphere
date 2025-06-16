@@ -1,9 +1,7 @@
-// IMPORTS
 import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import { api } from "../services/api";
 
-// COMPONENTE
 export default function ProjectDetails() {
   const { id } = useParams();
   const user = JSON.parse(localStorage.getItem("user"));
