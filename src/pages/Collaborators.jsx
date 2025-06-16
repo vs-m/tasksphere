@@ -3,7 +3,7 @@ import { useParams } from "react-router-dom";
 import { api } from "../services/api";
 
 export default function Collaborators() {
-  const { id } = useParams(); // id do projeto
+  const { id } = useParams(); 
   const user = JSON.parse(localStorage.getItem("user"));
 
   const [project, setProject] = useState(null);
