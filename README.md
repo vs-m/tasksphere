@@ -1,12 +1,17 @@
-# React + Vite
+# Desafio Técnico - Tasksphere
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# usuário de teste
+# email: vm@example.com
+# senha: 222222
 
-Currently, two official plugins are available:
+# instalar dependências
+npm install
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+# iniciar API local com JSON server
+npx json-server --watch db.json --port 3001
 
-## Expanding the ESLint configuration
+# em outro terminal
+npm run dev
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+# acessar http://localhost:5173
+
