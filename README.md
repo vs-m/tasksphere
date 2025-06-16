@@ -1,17 +1,16 @@
-# Desafio Técnico - Tasksphere
+Desafio Técnico - Tasksphere
 
-# usuário de teste
-# email: vm@example.com
-# senha: 222222
+usuário de teste:
+email: vm@example.com
+senha: 222222
 
-# instalar dependências
+# 1- instalar dependências
 npm install
 
-# iniciar API local com JSON server
+# 2- iniciar API local com JSON server
 npx json-server --watch db.json --port 3001
 
-# em outro terminal
+# 3- rodar em outro terminal
 npm run dev
 
-# acessar http://localhost:5173
-
+# 4- acessar http://localhost:5173
